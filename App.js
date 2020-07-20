@@ -12,7 +12,7 @@ export default function App() {
     </>
   ) : (
     <View style={styles.container}>
-      <Text style={styles.header}>Rock Paper Scissors Game</Text>
+      <Text style={styles.header}>Rock Paper Scissors</Text>
       <Text style={styles.emoji}>🗿 📄 ✂️</Text>
       <View style={styles.button}>
         <Button title="PLAY" onPress={() => setPlay(true)} />
