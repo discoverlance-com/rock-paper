@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "rock-paper",
+    "name": "Rock Paper",
     "slug": "rock-paper",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -8,7 +8,7 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#F44336"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -17,7 +17,13 @@
       "**/*"
     ],
     "ios": {
+      "buildNumber": "1.0.0",
+      "bundleIdentifier": "com.creativelancearmah.rock",
       "supportsTablet": true
+    },
+    "android": {
+      "package": "com.creativelancearmah.rock",
+      "versionCode": 1
     },
     "web": {
       "favicon": "./assets/favicon.png"
